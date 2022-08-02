@@ -6,7 +6,6 @@ import { map, Observable } from 'rxjs';
 @Injectable()
 export class AppService {
   constructor(private readonly httpService: HttpService) {}
-
   saveDataToMachine(data: any): any {
     // console.log(ndata, 'coming data', new Date().toISOString());
     // console.table(data);
